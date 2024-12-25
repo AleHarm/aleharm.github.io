@@ -3,40 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alex's Portfolio</title>
+    <title>Profile Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Alex's Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I'm Alex, a passionate developer with an interest in creating innovative solutions. Welcome to my personal website!</p>
-        </section>
-        <section id="portfolio">
-            <h2>My Portfolio</h2>
-            <ul>
-                <li><a href="https://github.com/your-github-username" target="_blank">GitHub</a></li>
-                <li><a href="https://linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Feel free to reach out to me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Alex. All rights reserved.</p>
-    </footer>
+    <div class="container">
+      <header>
+        <button class="hamburger-menu" aria-label="Toggle Menu">☰</button>
+        <h1>Alex Harmon</h1>
+        <p>Student and Programmer</p>
+      </header>
+      <nav class="sidebar">
+        <ul>
+          <li><a href="Resume - Alex Harmon.pdf">Resume</a></li>
+          <li><a href="https://www.linkedin.com/in/alexharmon1/">LinkedIn</a></li>
+          <li><a href="https://github.com/AleHarm/Code-Portfolio">Code Portfolio</a></li>
+          <li><a href="https://graphicnerdity.itch.io/">Games</a></li>
+        </ul>
+      </nav>
+        <main class="content">
+          <section class="mobile-profile-picture">
+            <div>
+              <img src="Alex.png" alt="Profile Image">
+            </div>
+          </section>
+          <section class="about-me">
+              <h2>About me</h2>
+              <p>
+                  I'm a senior at Brigham Young University, studying computer science. I believe in hard work, creative problem solving, and learning new things.
+                  I started coding in high school in a video game development class, and I've been hooked ever since!
+              </p>
+              <p id="current-info">
+                Looking for internships during the summer of 2025 involving software engineering, web development, IT, and machine learning among other things.
+              </p>
+          </section>
+          <section class="profile-picture">
+            <div>
+              <img src="Alex.png" alt="Profile Image">
+            </div>
+          </section>
+          <section class="details">
+            <h2>Details</h2>
+            <div class="email">
+              <h3>Email</h3>
+              <p>alexharmon0427@gmail.com</p>
+            </div>
+            <div class="phone-number">
+              <h3>Phone Number</h3>
+              <p>971-340-8912</p>
+            </div>
+            <div class="links">
+              <h2>Links</h2>
+              <div>
+                <a href="Resume - Alex Harmon.pdf">Resume</a>
+              </div>
+              <div>
+                <a href="https://www.linkedin.com/in/alexharmon1/">LinkedIn</a>
+              </div>
+              <div>
+                <a href="https://github.com/AleHarm/Code-Portfolio">Code Portfolio</a>
+              </div>
+              <div>
+                <a href="https://graphicnerdity.itch.io/">Games</a>
+              </div>
+            </div>
+          </section>
+        </main>
+    </div>
+    <footer></footer>
+    <script src="script.js"></script>
 </body>
 </html>
